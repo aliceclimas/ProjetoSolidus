@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
 
 :root {
-    
     --cor1: #FBFBFB;
     --cor2: #F0CECE;
     --cor3: #C27274;
@@ -72,7 +71,6 @@ ul > li {
     align-items: center;
     margin: 10px 0.2vw;
 }
-
 
 .botao:hover {
     background-color: #a86364;
@@ -294,7 +292,6 @@ main {
     background-image: url(../imagens/img3-branco.jpeg);
     background-size: cover; 
     background-position: center center;
-
 }
 
 /* SOBRE NÓS NO CELULAR E TABLET */
@@ -386,23 +383,24 @@ footer {
 
     font-family: 'Poppins';
     background-color: #C27274;
+    border: 1px solid blue;
 }
 
 footer > img {
     width: 100px;
+    border: 1px solid blue;
 }
 
-.redes-sociais {
+.icones-redes-sociais {
     display: flex;
-    gap: 20px;
-    
+    flex-direction: column;
+
     position: absolute;
 
-    top: 40px;
-    left: 0;
-    margin-left: 20px;
+    top: 10px;
+    left: 10px;
 }
 
-.redes-sociais img {
+.icones-redes-sociais img {
     width: 3em;
 }

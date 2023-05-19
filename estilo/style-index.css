@@ -11,13 +11,6 @@
     --cor4: #FB5C5C;
 }
 
-/* RESET DO ESTILO DO NAVEGADOR */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* LINHA HORIZONTAL ESTILIZADA*/
 hr {
     border: 0;

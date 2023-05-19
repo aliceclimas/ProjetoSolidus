@@ -1,0 +1,29 @@
+body{
+
+}
+.header{
+    background: #C27274;
+    width: 100%;
+    height: 120px;
+    left: -12px;
+
+}
+.headerlogo{  
+    position: absolute;
+    left: calc(50% - 131.59px/2 - 0.21px);
+    top: 7.57px;
+    height: 102.5px;
+    width:131.59px ;
+}
+
+.doacoesinicial{
+    opacity: 30%;
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    left: 0px;
+    top: 0px;
+}
+.menu{
+    
+}

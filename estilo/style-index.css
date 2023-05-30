@@ -6,19 +6,31 @@
 
 :root {
     --cor1: #FBFBFB;
-    --cor2: #F0CECE;
-    --cor3: #C27274;
-    --cor4: #FB5C5C;
+    --cor2: #EDE4DB;
+    --cor3: #F0CECE;
+    --cor4: #e4c0c1;
+    --cor5: #C27274;
+    --cor6: #FB5C5C;
+    --cor7: #A63336;
 }
 
-/* LINHA HORIZONTAL ESTILIZADA*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
 hr {
     border: 0;
     height: 3px;
     margin: 20px auto;
-    background-color: var(--cor3);
+    background-color: var(--cor5);
     width: 60%;
-    /*background-image: linear-gradient(to right, #FFF, var(--cor2), var(--cor2), var(--cor2), #FFF);*/
 }
 
 .hero-section {
@@ -28,7 +40,6 @@ hr {
 
     height: 100vh;
 
-    /*LTERAÇÃO NO TAMANHO DA FOTO*/
     background-image: url(../imagens/hero-section-brackground-branco-desktop.jpeg);
     background-size: cover;
     background-position: center center;
@@ -37,11 +48,7 @@ hr {
 .cabecalho {
     display: flex;
     justify-content: center;
-    /*background-color: var(--cor4);*/
-
-    /*background-image: linear-gradient(to bottom, #f24b51 , #bf3b3fc5, #a6333700);*/
     background-color: #c27273bb;
-
     height: 15vh;
 }
 
@@ -53,63 +60,58 @@ nav {
 nav > ul {
     display: flex;
     justify-content: center;
-    width: 40em;
+    width: 30em;
 }
 
-/* CONTANER DOS BOTÕES COM OS BOTÕES */
 ul > li {
     display: flex;
-    height: 2em;
     flex: 1;
+
     align-items: center;
     margin: 10px 0.2vw;
 }
 
-.botao:hover {
-    background-color: #a86364;
-}
-
-/* ESTILO GENÉRICO PARA BOTÕES */
 .botao {
     flex: 1;
-    font: 10pt 'Poppins';
+    font-weight: bold;
+    font-size: 10pt;
+
     text-align: center;
 
-    background-color: var(--cor3);
-    color: #FFF;
+    background-color: var(--cor5);
+    color: var(--cor3);
 
     padding: 0.7em 0;
     border-radius: 2em;
     box-shadow: 3px 3px 5px #25252581;
 
-    transition: all 800ms ease;
+    transition: all 600ms ease;
 }
 
-/* REMOVENDO A DECORAÇÃO PADRÃO DE TODOS OS LINKS */
+.botao:hover {
+    color: var(--cor5);
+    background-color: var(--cor3);
+}
+
 .botao:link {
-    font-weight: bold;
     text-decoration: none;
 }
 
 .hero-section-parte-baixo {
-    display: flex;
-    flex-direction: column;
+    display: flex;  
+    justify-content: center;
     margin-bottom: 100px;
 }
 
-.hero-section-parte-baixo > h1 {
-    text-align: center;
-    color: #252525;
-    font: bold 3em 'Dancing Script';
+@media screen and (max-width: 780px) {
+    .hero-section-parte-baixo > img {
+        width: 80%;
+    }
 }
-.hero-section-parte-baixo > a {
-    width: 280px;
-    align-self: center;
-    background-color: var(--cor4);
-}
-
-main {
-    margin: 0 auto;
+@media screen and (min-width: 1024px) {
+    .hero-section-parte-baixo > img {
+        width: 600px;
+    }
 }
 
 .grid {
@@ -120,7 +122,6 @@ main {
     position: relative;
 }
 
-/* GRID DE FOTOS DA PÁGINA NO CELULAR*/
 @media only screen and (max-width: 480px){
     .grid > img {
         margin: 5px auto;
@@ -132,7 +133,6 @@ main {
     }
 } 
 
-/* GRID DE FOTOS DA PÁGINA NO TABLET*/
 @media only screen and (min-width: 480px) and (max-width: 1024px){
     .grid > img {
         width: 40%;
@@ -143,7 +143,6 @@ main {
     }
 } 
 
-/* GRID DE FOTOS DA PÁGINA NO DESKTOP*/
 @media only screen and (min-width: 1024px){
     .grid > img {
         width: 25%;
@@ -152,16 +151,15 @@ main {
         z-index: 2;
 
         object-fit: cover;
-        object-position: 0 -10px; /* MOVE A FOTO DENTRO DO CONTAINER SEM REDIMENSIONA-LA, LEFT TOP*/
+        object-position: 0 -10px;
     }
 }
 
-/* TRAÇO ATRÁS DO GRID DE FOTOS */
 .fita {
     width: 100%;
     height: 100px;
 
-    background-color: var(--cor3);
+    background-color: var(--cor5);
     
     position: absolute;
     top: 40%;
@@ -172,7 +170,7 @@ main {
 .frase-impacto {
     margin-top: 10px;
     font: italic bold 2em 'Poppins', sans-serif;
-    color: var(--cor3);
+    color: var(--cor5);
     text-align: center;
 }
 
@@ -182,7 +180,6 @@ main {
     justify-content: center;
 }
 
-/* GRID DE INFOS (MISSÃO, VISÃO E VALORES) DA PÁGINA NO CELULAR */
 @media only screen and (max-width: 480px){
     .info-container {
         display: flex;
@@ -197,7 +194,6 @@ main {
     }
 } 
 
-/* GRID DE INFOS (MISSÃO, VISÃO E VALORES) DA PÁGINA NO TABLET */
 @media only screen and (min-width: 480px) and (max-width: 1024px){
     .info-container {
         display: flex;
@@ -214,7 +210,6 @@ main {
     }
 } 
 
- /* GRID DE INFOS DA PÁGINA NO DESKTOP */
 @media only screen and (min-width: 1024px){
     .info-container {
         display: flex;
@@ -227,7 +222,6 @@ main {
     }
 }
 
-/* CARTAO DE INFORMACOES */
 .cartao {
     display: flex;
     flex-direction: column;
@@ -244,24 +238,21 @@ main {
 
 .cartao > h1 {
     text-align: center;
-    color: var(--cor3);
-    font: 3vh 'Poppins';
-
+    color: var(--cor7);
+    font: 2em 'Poppins';
 }
 
 .cartao > p {
     text-align: justify;
-    font: 10pt 'Poppins';
+    line-height: 1.5;
 }
 
-/* CARTÃO DE INFO MISSÃO */
 .missao {
     background-image: url(../imagens/img1-branco.jpeg);
     background-size: cover;
     background-position: -100px;
 }
 
-/* CARTÃO DE INFO VISÃO */
 .visao {
     display: flex;
     background-color: var(--cor1);
@@ -274,23 +265,18 @@ main {
     border-radius: 5px;
 
     width: 100%;
-    height: 200px;
     object-fit: cover;
-    object-position: 0 -40px;
-
 }
 
-/* CARTÃO DE INFO VALORES */
 .valores {
     background-image: url(../imagens/img3-branco.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 
-/* SOBRE NÓS NO CELULAR E TABLET */
 @media screen and (max-width: 1024px) {
     .secao-sobre-nos {
-        background-color: var(--cor2);
+        background-color: var(--cor4);
         
         box-shadow: 4px 4px 7px #2525258f;
 
@@ -307,7 +293,6 @@ main {
     }
 }
 
-/* SOBRE NÓS NO DESKTOP */
 @media screen and (min-width: 1024px){
     .secao-sobre-nos {
         display: flex;
@@ -333,19 +318,14 @@ main {
 
         position: absolute;
 
-        width: 100vw;
+        width: 100%;
         height: 100px;
-    }
-    .sobre-nos-logo > img {
-        border: 1px solid blue;
     }
 
     .sobre-nos-foto {
         display: flex;
         align-items: center;
         justify-content: center;
-
-        border: 1px solid blue;
     }
 
     .sobre-nos-foto > img {
@@ -356,14 +336,14 @@ main {
 }
 
 .sobre-nos-texto > h1 {
-    font: 3em 'Poppins';
-    color: var(--cor4);
+    font-size: 3em;
+    color: var(--cor6);
     padding: 10px 0;
 }
 
 .sobre-nos-texto > p {
-    font-family: 'Poppins';
     text-align: justify;
+    line-height: 1.7;
     padding: 0 20px;
 }
 
@@ -376,12 +356,10 @@ footer {
 
     font-family: 'Poppins';
     background-color: #C27274;
-    border: 1px solid blue;
 }
 
 footer > img {
     width: 100px;
-    border: 1px solid blue;
 }
 
 .icones-redes-sociais {
@@ -395,5 +373,5 @@ footer > img {
 }
 
 .icones-redes-sociais img {
-    width: 3em;
+    width: 10%;
 }

@@ -1,247 +1,54 @@
-html,body{
-    min-height: 100vh;
+body {
+    font-size: 18px;
+    font-family: 'Poppins';
 }
-body{
+
+.hero-section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #FEFBF9;
-    margin: 0;
-    padding: 0;
- 
-}
-.menu{
-    display: flex;
-    padding: 2% 0% 0% 0%;
-    background: #C27274;
-    width: 100%;
-    height: 10rem;
-    margin: 0;
-    border: 1px solid black;
-    
-}
-.menu_links{
-    display: flex;
-    justify-content: flex-start;
-    border: 1px solid black;
-    width: 20rem;
-    height: 3.0625rem;
+    height: 100vh;
+    background-image: url(../images/doacoes.png);
+    background-size: cover;
+    background-position: center center;
    
-    
-} 
-.a_link{
-
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 75%;
-    line-height: 1.5rem;
-    text-align:center;
-    color: #EDE4DB;
-    width:8rem;
-    height: 3.0625rem;
-    background: #C27274;
-    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.875rem;
-    border: 1px solid black;
-    gap: 3rem;
-}
-.a_link:hover{
-    background-color: #e4c0c1;
-    opacity: 80%;
-    color: #C27274;
-}
-.navtexto{
-    position: relative;
-    height: 5%;
-    left: 0.3125rem;
-    top: 0.94rem;
-}
-.headerlogo{  
-    align-items: center;
-    height: 80%;
-    width:10%;
-}
-.doacoesinicial{
-    opacity: 30%;
-    position:relative;
-    width: 100%;
-    height: 97.76rem;
-    border: 1px solid black;
-    margin:0;
-}
-.retangulo2{
-    position: absolute;
-    width: 84.37rem;
-    height:12.5rem;
-    left: -2.56rem;
-    top: 97.76rem;
-    background: #FFFFFF;
-    border-radius: 1.88rem;
-  }
-  h1{
-    color: #C27274;
-    position: absolute;
-    width: 14.5rem;
-    left: 9.81rem;
-    top:101.89rem;
-    font-family:'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3.75rem;
-    line-height: 4.5rem;
-  }
-p{
-    width: 50.17rem;
-    height: 36.67rem;
-    left: 7.64rem;
-    top: 178.13rem;
 }
 .imgdoacoes{
-    opacity: 8%;
-    border-radius: 1.88rem;
-    position: absolute;
-    width: 55.10rem;
-    height: 90.71rem;
-    left:6rem;
-    top: 139.12rem;
-}
-.textoparagrafo1{
-    position: absolute;
-    width: 43.80rem;
-    height: 36.67rem;
-    left: 11.30rem;
-    top: 168.76rem;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 180%;
-    line-height: 4.2rem;
-    display: flex;
-    align-items: flex-end;
-    text-align: justify;;
-}
-.imgdoacoes2{
-    position: absolute;
-    opacity: 8%;
-    width: 95.06rem;
-    height:92rem;
-    left: 68.40rem;
-    top: 144.5rem;
-    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    border-radius: 5rem;
-}
-.textoparagrafo2{
-    position: absolute;
-    width: 88.50rem;
-    height: 25.60rem;
-    left: 74rem;
-    top: 150rem;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.20rem;
-    line-height: 4.25rem;
-    color: #000000;
-}
-.textoparagrafo3{
-    position: absolute;
-    width: 36.40rem;
-    height: 29.60rem;
-    left: 75.7rem;
-    top: 172.49rem;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.20rem;
-    line-height: 4.25rem;
-    color: #000000;
-}
-.textoparagrafo4{
-    position: absolute;
-    width: 37.15rem;
-    height: 29.60rem;
-    left: 121.15rem;
-    top: 172.49rem;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.20rem;
-    line-height: 4.25rem;
-    color: #000000;
-}
-.retangulo3{
-    position: absolute;
-    width: 52.4rem;
-    height: 20.80rem;
-    left: calc(50% - 27.9rem/2 + 20.8rem);
-    top: 205.60rem;
-    background: #ffffff;
-    box-shadow: 0.95rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.45rem;
-}
-.irmaosbrandt{
-    position: absolute;
-    width: 17.15rem;
-    height: 15.28rem;
-    left: 109.45rem;
-    top: 200rem;
-    filter: drop-shadow(0.625rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
-}
-.chavepix{
     
-    width: 65.6rem;
-    height: 8rem;
-    left: 11.0rem;
-    top: 225rem;
-    background: #C27274;
-    box-shadow: 0.50rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.88rem;
-    width: 60rem;
-    height: 5.rem;
-    left: 88.4rem;
-    top: 110.80rem;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.2rem;
-    line-height: 4.25rem;
-    color: #FEFBF9;
-    text-align: center;
 }
-/*
-footer{
-    position: relative;
-    width: 170.6rem;
-    height: 22.20rem;
-    top: 375rem;
-    background: #C27274;
-}*/
-/*
-.imagemfooter{
-    text-align: center;
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    left: 22%;
-    top: 2980%;
+.hero-section-parte-cima{
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color:#c27273bb ;
+    height: 15vh;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    width:30rem;
+}
+ul > li{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 10px 0.2vw;
+}
+.botao{
+    text-decoration: none;
 }
 
-.textofooter{
-    position: absolute;
-    align-items: center;
-    width: 30%;
-    height: 30%;
-    left: 20%;
-    top: 3000%;
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 110%;
-    line-height: 3.3rem;
-    color: #263238;
-}*/
+.hero-section-parte-baixo{
+    top: 0;
+}
+
+
 
 @media(max-width:1500px){
     .menu{
@@ -256,6 +63,10 @@ footer{
         margin: 0;
         left: 65%;
         width: 10%;
+    }
+    .logo-container{
+        position: absolute;
+        top: 0;
     }
     .headerlogo{
         width: 20%;

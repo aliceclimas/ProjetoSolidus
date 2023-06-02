@@ -380,7 +380,9 @@ footer {
 
     background-color: #C27274;
 }
-
+footer aside {
+    font-size: 14px;
+}
 footer > img {
     width: 100px;
 }
@@ -394,7 +396,7 @@ footer > img {
     top: 10px;
     left: 10px;
     
-    width: 50px;
+    width: 35px; 
 }
 
 .icones-redes-sociais img {

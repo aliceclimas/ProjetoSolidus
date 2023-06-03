@@ -1,139 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
-
-:root {
-    --cor1: #FBFBFB;
-    --cor2: #EDE4DB;
-    --cor3: #F0CECE;
-    --cor4: #e4c0c1;
-    --cor5: #C27274;
-    --cor6: #FB5C5C;
-    --cor7: #A63336;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 18px;
-    font-family: 'Poppins';
-}
-
-hr {
-    border: 0;
-    height: 3px;
-    margin: 20px auto;
-    background-color: var(--cor5);
-    width: 60%;
-}
-
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    height: 100vh;
-
-    background-image: url(../imagens/hero-section-brackground.jpeg);
-    background-size: cover;
-    background-position: center center;
-}
-
-.hero-section::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(240, 240, 240, 0.74);
-    z-index: 1;
-}
-
-.hero-section-parte-cima {
-    z-index: 2;
-}
-
-.cabecalho {
-    display: flex;
-    justify-content: center;
-    background-color: #c27273bb;
-    height: 15vh;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav > ul {
-    display: flex;
-    justify-content: center;
-    width: 30em;
-}
-
-ul > li {
-    display: flex;
-    flex: 1;
-
-    align-items: center;
-    margin: 10px 0.2vw;
-}
-
-.botao {
-    flex: 1;
-    font-weight: bold;
-    font-size: 10pt;
-
-    text-align: center;
-
-    background-color: var(--cor5);
-    color: var(--cor3);
-
-    padding: 0.7em 0;
-    border-radius: 2em;
-    box-shadow: 3px 3px 5px #25252581;
-
-    transition: all 600ms ease;
-}
-
-.ativo {
-    background-color: #A63336;
-}
-.botao:hover {
-    color: var(--cor5);
-    background-color: var(--cor3);
-}
-
-.botao:link {
-    text-decoration: none;
-}
-
-.hero-section-parte-baixo {
-    display: flex;  
-    justify-content: center;
-    margin-bottom: 100px;
-    z-index: 2;
-}
-
-@media screen and (max-width: 1024px) {
-    .hero-section-parte-baixo > img {
-        width: 80%;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .hero-section-parte-baixo > img {
-        width: 600px;
-    }
-}
-
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -182,7 +46,8 @@ ul > li {
     background-color: var(--cor5);
     
     position: absolute;
-    top: 40%;
+    top: 50%;
+    transform: translate(0, -50%);
 
     z-index: 1;
 }
@@ -218,7 +83,7 @@ ul > li {
     .info-container {
         display: flex;
         flex-direction: column;
-        margin: 10px 0 60px 0;
+        /* margin: 10px 0 10px 0; */
     }
 
     .visao {
@@ -235,11 +100,9 @@ ul > li {
         display: flex;
         flex-direction: row;
     
-        max-width: 70%;
+        max-width: 1000px;
         max-height: 500px;
-    
-        margin: 10px 0 100px 0;
-    }
+        }
 }
 
 .cartao {
@@ -259,11 +122,12 @@ ul > li {
 .cartao > h1 {
     text-align: center;
     color: var(--cor7);
-    font: 2em 'Poppins';
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .cartao > p {
-    text-align: justify;
+    text-align: center;
     line-height: 1.5;
 }
 
@@ -284,7 +148,7 @@ ul > li {
     margin: 25px 0;
     border-radius: 5px;
 
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -294,7 +158,7 @@ ul > li {
     background-position: center center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .secao-sobre-nos {
         background-color: var(--cor4);
         
@@ -302,8 +166,8 @@ ul > li {
 
         padding: 10px;
 
-        margin-bottom: 25px;
-        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .sobre-nos-foto {
@@ -321,7 +185,7 @@ ul > li {
         justify-content: center;
         background-color: var(--cor4);
 
-        margin-bottom: 50px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 
@@ -368,38 +232,5 @@ ul > li {
     text-align: justify;
     line-height: 1.7;
     padding: 0 20px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    position: relative;
-
-    background-color: #C27274;
-}
-footer aside {
-    font-size: 14px;
-}
-footer > img {
-    width: 100px;
-}
-
-.icones-redes-sociais {
-    display: flex;
-    flex-direction: column;
-
-    position: absolute;
-
-    top: 10px;
-    left: 10px;
-    
-    width: 35px; 
-}
-
-.icones-redes-sociais img {
-    width: 100%;
 }
 

@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -79,7 +80,74 @@ ul > li {
 
 .botao:link {
     text-decoration: none;
+
+}
+.section-parte-baixo{
+    background-color: #FEFBF9;
+}
+.retangulo{
+    display: flex;
+    border-radius: 1rem;
 }
 
+.retangulodoacoes{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width:45rem ;
+    height:10rem ;
+    border-radius: 1rem;
+
+}
+h1{
+    flex-direction: row;
+    align-self: center;
+    color: #C27274;
+    font-size: 55px;
+}
+
+.imagem-texto1{
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(../images/recdoacoes.png)
+    
+}
+.texto-paragrafo1{
+
+}
+.texto1{
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+
+    background-color: #C27274;
+}
+
+footer > img {
+    width: 100px;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+    
+    width: 50px;
+}
+
+.icones-redes-sociais img {
+    width: 100%;
+}
 
 

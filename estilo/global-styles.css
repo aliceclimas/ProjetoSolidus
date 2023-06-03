@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+
+:root {
+    --cor1: #FBFBFB;
+    --cor2: #EDE4DB;
+    --cor3: #F0CECE;
+    --cor4: #e4c0c1;
+    --cor5: #C27274;
+    --cor6: #FB5C5C;
+    --cor7: #A63336;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TAMANHO DE FONTE E FAMÍLIA DA FONTE PADRÕES DO PROJETO  */
+body {
+    font-size: 18px;
+    font-family: 'Poppins';
+    max-width: 1980px; /* LARGURA MÁXIDA DA PÁGINA */
+    margin: 0 auto;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+}
+
+/* LINHA HORIZONTAL ESTILIZADA */
+hr {
+    border: 0;
+    height: 3px;
+    margin: 20px auto;
+    background-color: var(--cor5);
+    width: 60%;
+}
+
+/* ESTILIZAÇÃO DA HERO-SECTION */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    
+    background-image: url(../imagens/hero-section-brackground.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(240, 240, 240, 0.74);
+    z-index: 1;
+}
+
+.hero-section-parte-cima {
+    z-index: 2;
+}
+
+.hero-section-parte-baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.hero-section-parte-baixo > a {
+    background-color: var(--cor6);
+    color: var(--cor3);
+
+    border: 1px solid black;
+    width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-section-parte-baixo > img {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .hero-section-parte-baixo > img {
+        width: 600px;
+    }
+}
+
+.cabecalho-logo {
+    display: flex;
+    justify-content: center;
+    background-color: #c27273bb;
+    height: 15vh;
+}
+
+.menu-botoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-botoes > ul {
+    display: flex;
+    justify-content: center;
+    width: 30em;
+}
+
+.menu-botoes > ul > li {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+    margin: 10px 0.2vw;
+}
+
+.botao {
+    background-color: var(--cor5);
+    color: var(--cor3);
+    text-decoration: none; 
+
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: center;
+
+    flex: 1;
+
+    padding: 0.7em 0;
+    border: 1px solid var(--cor5);
+    border-radius: 2em;
+    box-shadow: 3px 3px 5px #25252581;
+
+    transition: all 600ms ease;
+}
+
+.botao:hover {
+    color: var(--cor5);
+    background-color: var(--cor3);
+    border: 1px solid var(--cor5);
+}
+
+.botao-ativo {
+    background-color: var(--cor5);
+    color: var(--cor3);
+    border: 1px solid var(--cor3);
+    text-decoration: underline;
+}
+
+/* ESTILIZAÇÃO DO RODAPÉ */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-size: 14px;
+
+    position: relative;
+
+    background-color: #C27274;
+}
+
+footer > img {
+    width: 100px;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+    
+    width: 35px; 
+}
+
+.icones-redes-sociais img {
+    width: 100%;
+}
+
+

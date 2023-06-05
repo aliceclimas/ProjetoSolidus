@@ -11,8 +11,11 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
     font-family: 'Poppins';
+
 }
 
 .hero-section {
@@ -83,7 +86,12 @@ ul > li {
 
 }
 .section-parte-baixo{
+    display: flex;
     background-color: #FEFBF9;
+}
+.baixo-container{
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .retangulo{
     display: flex;
@@ -105,15 +113,12 @@ h1{
     color: #C27274;
     font-size: 55px;
 }
-
 .imagem-texto1{
-   
+    width: 50%;
+    height: 70%;
     display: flex;
     background-image: url(../images/recdoacoes.png);
     background-repeat: no-repeat;
-    width:90rem;
-    height: 60rem;
-
 }
 .texto-paragrafo1{
    

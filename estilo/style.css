@@ -107,15 +107,30 @@ h1{
 }
 
 .imagem-texto1{
+   
     display: flex;
+    background-image: url(../images/recdoacoes.png);
     background-repeat: no-repeat;
-    background-image: url(../images/recdoacoes.png)
-    
-}
-.texto-paragrafo1{
+    width:90rem;
+    height: 60rem;
 
 }
+.texto-paragrafo1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px yellow;
+    font-size: 24px;
+   
+}
+
 .texto1{
+   height: 30rem;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    border:solid 2px black;
     font-size: 24px;
 }
 

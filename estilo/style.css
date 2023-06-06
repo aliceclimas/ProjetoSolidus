@@ -18,12 +18,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   height: 100vh;
 
   background-image: url(../images/doacoes.png);
   background-size: cover;
   background-position: center center;
+  z-index: 5;
 }
 
 .cabecalho {
@@ -82,7 +82,9 @@ ul > li {
 }
 .section-parte-baixo {
 }
-
+.doacoes-principal {
+  background-color: #fefbf9;
+}
 .retangulo {
   display: flex;
   border-radius: 1rem;
@@ -91,7 +93,7 @@ ul > li {
 .retangulodoacoes {
   display: flex;
   justify-content: center;
-  margin: 2rem 0 1rem 0;
+  margin: 3rem 0 3rem 0;
 }
 h1 {
   flex-direction: row;
@@ -103,19 +105,19 @@ h1 {
   display: flex;
   margin: 0 1rem 0 2rem;
   padding: 2rem;
-  box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+  box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
   border-radius: 1rem;
   background-image: url(../images/recdoacoes.png);
   background-repeat: no-repeat;
 }
 .texto-paragrafo1 {
-  padding: 1rem;
+  padding: 2rem;
   text-align: justify;
 }
 
-.texto-paragrafo1 h1{
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
+.texto-paragrafo1 h1 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .texto1 {
@@ -157,67 +159,70 @@ footer > img {
   width: 100%;
 }
 
-.doacoes-principal{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+.doacoes-principal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
-.kits-texto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem;
+.kits-texto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
-.retangulo3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
-    border-radius: 2rem 2rem 0 0;
-    max-width: 21rem;
-    max-height: 8rem;
-    margin: 3rem 0;
+.retangulo3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 2rem 2rem 0 0;
+  max-width: 21rem;
+  max-height: 8rem;
+  margin: 3rem 0;
 }
 
-.imagem-texto2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 50%;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
-    margin: 0 2rem 0 1rem;
-    align-items: center;
-    text-align: justify;
-    line-height: 1.5;
+.imagem-texto2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
+  margin: 0 2rem 0 1rem;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.5;
+  background-image: url(../images/recdoacoes2.png);
+  background-repeat: no-repeat;
 }
 
-.chavepix h1{
-    color: #000;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin: 1rem;
+.chavepix h1 {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem;
 }
 
-.chavepix p{
-    background-color: #c27274;
-    padding: 1rem 1rem;
-    border-radius: 5rem;
-    color: #fff;
-    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+.chavepix p {
+  background-color: #c27274;
+  padding: 1rem 1rem;
+  border-radius: 5rem;
+  color: #fff;
+  box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
 }
 
-.irmaosbrandt{
-    max-width: 8rem;
+.irmaosbrandt {
+  max-width: 8rem;
 }
 
-.textoparagrafo3, .textoparagrafo4{
-    padding: 1rem;
+.textoparagrafo3,
+.textoparagrafo4 {
+  padding: 1rem;
 }

@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap");
 * {
   margin: 0;
@@ -69,9 +67,6 @@ ul > li {
   transition: all 600ms ease;
 }
 
-/* .ativo { Vai colocar mesmo??
-    background-color: #A63336;
-} */
 .botao:hover {
   color: #c27274;
   background-color: #f0cece;
@@ -79,8 +74,6 @@ ul > li {
 
 .botao:link {
   text-decoration: none;
-}
-.section-parte-baixo {
 }
 
 .retangulo {
@@ -124,6 +117,59 @@ h1 {
   align-items: center;
   justify-content: center;
   line-height: 1.5;
+}
+
+.section-parte-baixo{
+    display: flex;
+    background-color: #FEFBF9;
+}
+.baixo-container{
+    display: flex;
+}
+.retangulo{
+    display: flex;
+    border-radius: 1rem;
+}
+
+.retangulodoacoes{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width:45rem ;
+    height:10rem ;
+    border-radius: 1rem;
+
+}
+h1{
+    flex-direction: row;
+    align-self: center;
+    color: #C27274;
+    font-size: 55px;
+}
+.imagem-texto1{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    background-image: url(../images/recdoacoes.png);
+    background-repeat: no-repeat;
+}
+.texto-paragrafo1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px yellow;
+    font-size: 24px;
+   
+}
+
+.texto1{
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 20rem;
+    border:solid 2px black;
+    font-size: 24px;
 }
 
 footer {

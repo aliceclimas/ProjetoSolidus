@@ -90,8 +90,7 @@ ul > li {
     background-color: #FEFBF9;
 }
 .baixo-container{
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: flex;
 }
 .retangulo{
     display: flex;
@@ -114,7 +113,7 @@ h1{
     font-size: 55px;
 }
 .imagem-texto1{
-    width: 50%;
+    width: 60%;
     height: 70%;
     display: flex;
     background-image: url(../images/recdoacoes.png);
@@ -131,10 +130,10 @@ h1{
 }
 
 .texto1{
-   height: 30rem;
-    width: 20rem;
     align-items: center;
     justify-content: center;
+    height: 30rem;
+    width: 20rem;
     border:solid 2px black;
     font-size: 24px;
 }

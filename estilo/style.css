@@ -1,173 +1,223 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    font-family: 'Poppins';
-
+  font-size: 18px;
+  font-family: "Poppins";
 }
 
 .hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    height: 100vh;
+  height: 100vh;
 
-    background-image: url(../images/doacoes.png);
-    background-size: cover;
-    background-position: center center;
+  background-image: url(../images/doacoes.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 .cabecalho {
-    display: flex;
-    justify-content: center;
-    background-color: #c27273bb;
-    height: 15vh;
+  display: flex;
+  justify-content: center;
+  background-color: #c27273bb;
+  height: 15vh;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav > ul {
-    display: flex;
-    justify-content:center;
-    width: 30em;
+  display: flex;
+  justify-content: center;
+  width: 30em;
 }
 
 ul > li {
-    display: flex;
-    flex: 1;
+  display: flex;
+  flex: 1;
 
-    align-items: center;
-    margin: 10px 0.2vw;
+  align-items: center;
+  margin: 10px 0.2vw;
 }
 
 .botao {
-    flex: 1;
-    font-weight: bold;
-    font-size: 10pt;
+  flex: 1;
+  font-weight: bold;
+  font-size: 10px;
 
-    text-align: center;
+  text-align: center;
 
-    background-color: #C27274;
-    color: #F0CECE;
+  background-color: #c27274;
+  color: #f0cece;
 
-    padding: 0.7em 0;
-    border-radius: 2em;
-    box-shadow: 3px 3px 5px #25252581;
+  padding: 0.7em 0;
+  border-radius: 2em;
+  box-shadow: 3px 3px 5px #25252581;
 
-    transition: all 600ms ease;
+  transition: all 600ms ease;
 }
 
 /* .ativo { Vai colocar mesmo??
     background-color: #A63336;
 } */
 .botao:hover {
-    color: #C27274;
-    background-color: #F0CECE;
+  color: #c27274;
+  background-color: #f0cece;
 }
 
 .botao:link {
-    text-decoration: none;
-
+  text-decoration: none;
 }
-.section-parte-baixo{
-    display: flex;
-    background-color: #FEFBF9;
-}
-.baixo-container{
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.retangulo{
-    display: flex;
-    border-radius: 1rem;
+.section-parte-baixo {
 }
 
-.retangulodoacoes{
-    display: flex;
-    justify-content: center;
-    background-color:white;
-    width:45rem ;
-    height:10rem ;
-    border-radius: 1rem;
-
-}
-h1{
-    flex-direction: row;
-    align-self: center;
-    color: #C27274;
-    font-size: 55px;
-}
-.imagem-texto1{
-    width: 50%;
-    height: 70%;
-    display: flex;
-    background-image: url(../images/recdoacoes.png);
-    background-repeat: no-repeat;
-}
-.texto-paragrafo1{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 3px yellow;
-    font-size: 24px;
-   
+.retangulo {
+  display: flex;
+  border-radius: 1rem;
 }
 
-.texto1{
-   height: 30rem;
-    width: 20rem;
-    align-items: center;
-    justify-content: center;
-    border:solid 2px black;
-    font-size: 24px;
+.retangulodoacoes {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem 0;
+}
+h1 {
+  flex-direction: row;
+  align-self: center;
+  color: #c27274;
+  font-size: 55px;
+}
+.imagem-texto1 {
+  display: flex;
+  margin: 0 1rem 0 2rem;
+  padding: 2rem;
+  box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+  border-radius: 1rem;
+  background-image: url(../images/recdoacoes.png);
+  background-repeat: no-repeat;
+}
+.texto-paragrafo1 {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.texto-paragrafo1 h1{
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.texto1 {
+  max-height: 30rem;
+  max-width: 20rem;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    position: relative;
-
-    background-color: #C27274;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0 0 0;
+  position: relative;
+  padding: 2rem;
+  background-color: #c27274;
 }
 
 footer > img {
-    width: 100px;
+  width: 100px;
 }
 
 .icones-redes-sociais {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    position: absolute;
+  position: absolute;
 
-    top: 10px;
-    left: 10px;
-    
-    width: 50px;
+  top: 10px;
+  left: 10px;
+
+  width: 50px;
 }
 
 .icones-redes-sociais img {
-    width: 100%;
+  width: 100%;
 }
 
+.doacoes-principal{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
+.kits-texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.retangulo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+    border-radius: 2rem 2rem 0 0;
+    max-width: 21rem;
+    max-height: 8rem;
+    margin: 3rem 0;
+}
+
+.imagem-texto2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 50%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+    margin: 0 2rem 0 1rem;
+    align-items: center;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.chavepix h1{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.chavepix p{
+    background-color: #c27274;
+    padding: 1rem 1rem;
+    border-radius: 5rem;
+    color: #fff;
+    box-shadow: 10px 8px 27px 0px rgba(0,0,0,0.4);
+}
+
+.irmaosbrandt{
+    max-width: 8rem;
+}
+
+.textoparagrafo3, .textoparagrafo4{
+    padding: 1rem;
+}

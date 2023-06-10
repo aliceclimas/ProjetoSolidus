@@ -335,4 +335,31 @@ footer > img {
     padding: 0.5rem;
   }
 }
- 
+@media screen and (min-width: 1024px){
+  .imagem-texto1{
+    font-size: 14px;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    width: 50vh;
+    height: 65vh;
+    padding: 0;
+
+  }
+  .imagem-texto2{
+    margin-top: 4rem;
+    width: 100vh;
+    height: 80vh;
+  }
+  .texto2{
+    font-size: 14px;
+  }
+  .textoparagrafo3{
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+  .textoparagrafo4{
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+
+}

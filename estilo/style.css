@@ -411,15 +411,76 @@ footer > img {
     margin: 0.5rem;
   font-size: 16px;
   padding: 0;
-}
+  }
 
 
  }
 
  @media (max-width:992px){
- 
-
-
+    .hero-section{
+      height: 70vh;
+    }
+    .section-parte-baixo{
+      display: flex;
+    }
+    .doacoes-principal{
+      display: flex;
+    }
+    .imagem-texto1{
+      display: flex;
+      width: 47rem;
+      height: 35rem;
+      padding: 0;
+      background-image: url(../images/recdoacoes2.png);
+      background-repeat: no-repeat;
+      margin:4rem;
+    }
+    .texto-paragrafo1{
+      display: flex;
+      
+    }
+    .texto-paragrafo1 h1 {
+      font-size: 28px;
+      justify-content: center;
+      margin-left: 2rem;
+      margin-top: 5rem;
+    }
+    .texto1{
+      margin: 1rem;
+      width: 45rem;
+      height: 30rem;
+      font-size: 20px;
+      align-items: center;
+      margin-left: 8rem;
+      
+    }
+    .imagem-texto2{
+      margin: 4rem;
+      padding: 0;
+      max-width:  80%;
+      max-height: 80%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-image: url(../images/recdoacoes2.png);
+      background-repeat: no-repeat;
+    }
+    .texto2{
+      margin: 3rem;
+      font-size: 20px;
+      padding: 0;
+    }
+    .textoparagrafo3{
+      margin: 0.5rem;
+      font-size: 20px;
+      padding: 0;
+      justify-content: space-between 2rem;
+    }
+    .textoparagrafo4{
+      margin: 0.5rem;
+      margin-left: 6rem;
+      font-size: 20px;
+      padding: 0;
+    }
  }
  @media (max-width:1200px){
   

@@ -128,7 +128,8 @@ h1 {
 }
 .imagem-texto1 {
   display: flex;
-  margin: 0 1rem 0 2rem;
+  max-width: 95%;
+  margin: 0 1rem 0 1rem;
   padding: 1rem;
   box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
   border-radius: 1rem;
@@ -136,7 +137,7 @@ h1 {
   background-repeat: no-repeat;
 }
 .texto-paragrafo1 {
-  padding: 2rem;
+  padding: 1rem;
   text-align: justify;
 }
 
@@ -146,8 +147,8 @@ h1 {
 }
 
 .texto1 {
-  max-height: 30rem;
-  max-width: 20rem;
+  max-height: 80%;
+  max-width:90%;
   align-items: center;
   justify-content: center;
   line-height: 1.5;
@@ -207,8 +208,8 @@ footer > img {
   background-color: #fff;
   box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
   border-radius: 2rem 2rem 0 0;
-  max-width: 21rem;
-  max-height: 8rem;
+  max-width: 60%;
+  max-height: 7.5rem;
   margin: 3rem 0;
 }
 
@@ -216,7 +217,7 @@ footer > img {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 90%;
   padding: 1rem;
   border-radius: 1.5rem;
   box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
@@ -236,6 +237,8 @@ footer > img {
 }
 
 .chavepix p {
+  width: 100%;
+  font-size: 70%;
   background-color: #c27274;
   padding: 1rem 1rem;
   border-radius: 5rem;
@@ -254,6 +257,7 @@ footer > img {
 
 .retangulorecolhimento {
   display: flex;
+  width: 60%;
   justify-content: center;
   margin: 3rem 0 3rem 0;
 }
@@ -327,9 +331,29 @@ footer > img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-@media(max-width:480px){
+@media screen and(max-width:480px){
+ 
+  .hero-section{
+    width: 100%;
+  }
   .imagem-texto1{
+    width: 90%;
+  }
+  .texto-paragrafo1{
+    width: 70%;
+    padding: 0;
+    font-size: 5rem;
+  }
+  .imagem-texto2{
     width: 80%;
+
+  }
+  .retangulo3{
+    width: 10%;
+    margin: 0;
+  }
+  .chavepix{
+    width: 70%;
   }
 }
 @media screen and (max-width: 1023px) {

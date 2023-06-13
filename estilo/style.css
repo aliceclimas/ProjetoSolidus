@@ -51,31 +51,57 @@ ul > li {
   align-items: center;
   margin: 10px 0.2vw;
 }
+.menu-botoes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-botoes > ul {
+  display: flex;
+  justify-content: center;
+  width: 30em;
+}
+
+.menu-botoes > ul > li {
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+  margin: 10px 0.2vw;
+}
 
 .botao {
-  flex: 1;
-  font-weight: bold;
-  font-size: 10px;
+  background-color: #C27274;
+  color: #F0CECE;
+  text-decoration: none; 
 
+  font-weight: bold;
+  font-size: 10pt;
   text-align: center;
 
-  background-color: #c27274;
-  color: #f0cece;
+  flex: 1;
 
   padding: 0.7em 0;
+  border: 1px solid #C27274;
   border-radius: 2em;
   box-shadow: 3px 3px 5px #25252581;
 
   transition: all 600ms ease;
 }
 
-/* .ativo { Vai colocar mesmo??
-    background-color: #A63336;
-} */
 .botao:hover {
-  color: #c27274;
-  background-color: #f0cece;
+  color: #C27274;
+  background-color: var(--cor3);
+  border: 1px solid #C27274;
 }
+
+.botao-ativo {
+  background-color: #C27274;
+  color: #F0CECE;
+  border: 1px solid #F0CECE;
+  text-decoration: underline;
+}
+
 
 .botao:link {
   text-decoration: none;
@@ -301,17 +327,20 @@ footer > img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+@media(max-width:480px){
+  .imagem-texto1{
+    width: 80%;
+  }
+}
 @media screen and (max-width: 1023px) {
   
   .imagem-texto1{
     margin-top: 4rem;
     display: flex;
-    width: 45vh;
-    width: 23rem;
+    width: 50%;
+    height: 80%;
+    font-size: 80%;
     margin-right: 0.5rem;
-    max-width: 100vh;
-    height: 60vh;
     background-image: url(../images/recdoacoes.png);
   }
   .texto1{
@@ -319,10 +348,10 @@ footer > img {
     align-items: center;
   }
   .imagem-texto2{
+    font-size: 80%;
     margin-top: 4rem;
     width: 80vw;
-    max-width: 70vh;
-    max-height: 100vh;
+    max-height: 95%;
     margin-right: 1rem;
   }
   .texto2{
@@ -334,21 +363,24 @@ footer > img {
   .textoparagrafo4{
     padding: 0.5rem;
   }
+  .retangulo3{
+    height: 60%;
+  }
 }
 @media screen and (min-width: 1024px){
   .imagem-texto1{
     font-size: 14px;
     margin-top: 4rem;
     margin-left: 0rem;
-    width: 50vh;
-    height: 65vh;
+    width: 30%;
+    height: 80%;
     padding: 0;
 
   }
   .imagem-texto2{
     margin-top: 4rem;
-    width: 100vh;
-    height: 80vh;
+    width:45%;
+    height: 80%;
   }
   .texto2{
     font-size: 14px;

@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-
   background-image: url(../images/doacoes.png);
   background-size: cover;
   background-position: center center;
@@ -65,7 +64,6 @@ ul > li {
 .menu-botoes > ul > li {
   display: flex;
   flex: 1;
-
   align-items: center;
   margin: 10px 0.2vw;
 }
@@ -74,18 +72,14 @@ ul > li {
   background-color: #C27274;
   color: #F0CECE;
   text-decoration: none; 
-
   font-weight: bold;
   font-size: 10pt;
   text-align: center;
-
   flex: 1;
-
   padding: 0.7em 0;
   border: 1px solid #C27274;
   border-radius: 2em;
   box-shadow: 3px 3px 5px #25252581;
-
   transition: all 600ms ease;
 }
 
@@ -109,6 +103,7 @@ ul > li {
 
 .doacoes-principal {
   background-color: #fefbf9;
+  max-width: 100%;
 }
 .retangulo {
   display: flex;
@@ -144,14 +139,16 @@ h1 {
 .texto-paragrafo1 h1 {
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
+  width: 95%;
 }
 
 .texto1 {
-  max-height: 80%;
-  max-width:90%;
+  max-height: 95%;
+  max-width:95%;
   align-items: center;
   justify-content: center;
   line-height: 1.5;
+  font-size: 95%;
 }
 
 footer {
@@ -172,12 +169,9 @@ footer > img {
 .icones-redes-sociais {
   display: flex;
   flex-direction: column;
-
   position: absolute;
-
   top: 10px;
   left: 10px;
-
   width: 50px;
 }
 
@@ -261,7 +255,11 @@ footer > img {
   justify-content: center;
   margin: 3rem 0 3rem 0;
 }
-
+.pontosrecolhimento{
+  margin: 0.2rem;
+  padding: 0.5rem;
+  width: 80%;
+}
 .bravocar{
   margin-left: 10px;
   margin-right: 10px;
@@ -337,12 +335,16 @@ footer > img {
     width: 100%;
   }
   .imagem-texto1{
-    width: 90%;
+    width: 100%;
+    height: 80%;
   }
   .texto-paragrafo1{
-    width: 70%;
+    width: 90%;
     padding: 0;
-    font-size: 5rem;
+    font-size: 7rem;
+  }
+  .texto1{
+    font-size: 7rem;
   }
   .imagem-texto2{
     width: 80%;
@@ -361,8 +363,8 @@ footer > img {
   .imagem-texto1{
     margin-top: 4rem;
     display: flex;
-    width: 50%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     font-size: 80%;
     margin-right: 0.5rem;
     background-image: url(../images/recdoacoes.png);

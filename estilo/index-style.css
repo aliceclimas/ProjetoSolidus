@@ -224,6 +224,7 @@
 
 .sobre-nos-texto > h1 {
     font-size: 3em;
+    font-weight: 500;
     color: var(--cor6);
     padding: 10px 0;
 }

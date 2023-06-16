@@ -259,75 +259,34 @@ footer > img {
   margin: 0.2rem;
   padding: 0.5rem;
   width: 80%;
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 50%;
+  transform: translate(-50%,0);
 }
-.bravocar{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.recolhimentotext{
+  display:flex;
+  flex-direction: column;
+  max-width: 20%;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
 }
-
-.leocar{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.recolhimentotext>h3{
+  background-color: rgb(210, 208, 208);
+  border-radius: 1rem;
+  align-self: center;
+  max-width: 100%;
+  color: #424141;
+  font-size: 135%;
+  padding: 3%;
+  position: absolute;
+  top: 90%;
 }
-
-.sementinhas{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.lavajato{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.barbermilagre{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.colegioceoc{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.baberavante{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.imagembrandt{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.assisacai{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.paulamotos{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.recolhimentotext>img{
+  border: 11px solid rgb(214, 208, 208);
+  border-radius: 100%; 
 }
 @media screen and(max-width:480px){
  

@@ -164,7 +164,7 @@ footer {
 
 footer > img {
   width: 100px;
-}
+} 
 
 .icones-redes-sociais {
   display: flex;
@@ -330,6 +330,35 @@ footer > img {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+.recolhimentotext{
+  display:flex;
+  flex-direction: column;
+  max-width: 20%;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.recolhimentotext>h3{
+  background-color: rgb(210, 208, 208);
+  border-radius: 1rem;
+  align-self: center;
+  max-width: 100%;
+  color: #424141;
+  font-size: 135%;
+  padding: 3%;
+  position: absolute;
+  top: 90%;
+}
+.recolhimentotext>img{
+  border: 11px solid rgb(214, 208, 208);
+  border-radius: 100%; 
 }
 @media screen and(max-width:480px) {
   .hero-section {

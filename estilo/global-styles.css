@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("./navbar.css");
 :root {
     --cor1: #FBFBFB;
     --cor2: #EDE4DB;
@@ -117,37 +118,7 @@ hr {
     margin: 10px 0.2vw;
 }
 
-.botao {
-    background-color: var(--cor5);
-    color: var(--cor3);
-    text-decoration: none; 
 
-    font-weight: bold;
-    font-size: 10pt;
-    text-align: center;
-
-    flex: 1;
-
-    padding: 0.7em 0;
-    border: 1px solid var(--cor5);
-    border-radius: 2em;
-    box-shadow: 3px 3px 5px #25252581;
-
-    transition: all 600ms ease;
-}
-
-.botao:hover {
-    color: var(--cor5);
-    background-color: var(--cor3);
-    border: 1px solid var(--cor5);
-}
-
-.botao-ativo {
-    background-color: var(--cor5);
-    color: var(--cor3);
-    border: 1px solid var(--cor3);
-    text-decoration: underline;
-}
 
 /* ESTILIZAÇÃO DO RODAPÉ */
 footer {

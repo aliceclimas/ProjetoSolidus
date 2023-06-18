@@ -1,8 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap");
+@import url("./navbar.css");
+@import url("./global-styles.css");
+
+:root {
+  --cor1: #FBFBFB;
+  --cor2: #EDE4DB;
+  --cor3: #F0CECE;
+  --cor4: #e4c0c1;
+  --cor5: #C27274;
+  --cor6: #FB5C5C;
+  --cor7: #A63336;
+}
+
+.hero-section::before {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -68,33 +83,38 @@ ul > li {
   margin: 10px 0.2vw;
 }
 
+
 .botao {
-  background-color: #c27274;
-  color: #f0cece;
-  text-decoration: none;
+  background-color: var(--cor5);
+  color: var(--cor3);
+  text-decoration: none; 
+
   font-weight: bold;
   font-size: 10pt;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+
   flex: 1;
+
   padding: 0.7em 0;
-  border: 1px solid #c27274;
+  border: 1px solid var(--cor5);
   border-radius: 2em;
   box-shadow: 3px 3px 5px #25252581;
+
   transition: all 600ms ease;
 }
+
 .botao:hover {
-  color: #c27274;
-  background-color:#F0CECE;
-  border: 1px solid #c27274;
-}
-.botao-ativo {
-  background-color: #c27274;
-  color: #f0cece;
-  border: 1px solid #f0cece;
-  text-decoration:underline;
+  color: var(--cor5);
+  background-color: var(--cor3);
+  border: 1px solid var(--cor5);
 }
 
+.botao-ativo {
+  background-color: var(--cor5);
+  color: var(--cor3);
+  border: 1px solid var(--cor3);
+  text-decoration: underline;
+}
 
 .doacoes-principal {
   background-color: #fefbf9;

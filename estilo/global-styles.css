@@ -76,7 +76,7 @@ hr {
     background-color: var(--cor6);
     color: var(--cor3);
 
-    border: 1px solid black;
+    border: 1px solid #F0CECE;
     width: 200px;
 }
 

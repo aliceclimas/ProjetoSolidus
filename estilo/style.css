@@ -82,23 +82,18 @@ ul > li {
   box-shadow: 3px 3px 5px #25252581;
   transition: all 600ms ease;
 }
-
 .botao:hover {
   color: #c27274;
-  background-color: var(--cor3);
+  background-color:#F0CECE;
   border: 1px solid #c27274;
 }
-
 .botao-ativo {
   background-color: #c27274;
   color: #f0cece;
   border: 1px solid #f0cece;
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
-.botao:link {
-  text-decoration: none;
-}
 
 .doacoes-principal {
   background-color: #fefbf9;

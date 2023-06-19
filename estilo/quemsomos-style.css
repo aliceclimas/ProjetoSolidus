@@ -120,3 +120,26 @@ main img {
    width: 250px;
    height: 250px;
 }
+
+.diretor{
+    display:flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.diretor>h4 {
+    background-color: rgb(253, 236, 232, 1);
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 15%;
+    color: rgb(194, 114, 116, 1);
+    font-size: 115%;
+    align-self: center;
+    padding: 1%;
+    position: relative;
+}

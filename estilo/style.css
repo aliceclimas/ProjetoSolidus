@@ -265,11 +265,11 @@ footer > img {
   padding: 3rem;
 }
 
-.retangulorecolhimento {
+.retangulo-recolhimento {
   text-align: center;
   margin: 3rem 0 3rem 0;
 }
-.pontosrecolhimento {
+.pontos-recolhimento {
   margin: 0.2rem;
   padding: 0.5rem;
   display: flex;
@@ -278,7 +278,7 @@ footer > img {
   justify-content: center;
   align-items: center;
 }
-.recolhimentotext{
+.texto-recolhimento {
   display:flex;
   flex-direction: column;
   max-width: 20%;
@@ -287,19 +287,19 @@ footer > img {
   position: relative;
   margin-bottom: 50px;
 }
-.recolhimentotext>h3{
-  background-color: rgb(210, 208, 208);
+.texto-recolhimento>p {
+  background-color: rgb(237, 228, 219, 1);
   border-radius: 1rem;
   align-self: center;
   max-width: 100%;
-  color: #424141;
-  font-size: 135%;
+  color: rgb(0, 0, 0, 1);
+  font-size: 24px;
   padding: 3%;
   position: absolute;
   top: 90%;
 }
-.recolhimentotext>img{
-  border: 11px solid rgb(214, 208, 208);
+.texto-recolhimento>img{
+  border: 11px solid rgb(237, 228, 219, 1);
   border-radius: 100%; 
 }
 @media screen and(max-width:480px) {

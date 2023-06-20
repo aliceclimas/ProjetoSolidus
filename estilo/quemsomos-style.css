@@ -116,9 +116,28 @@ main img {
     padding-right: 100px;
 }
 
+.hero-section-equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    background-image: url(../imagens/background-equipe.png);
+    background-size: cover;
+    background-position: center center;
+    color: #C27274;
+    text-align: center;
+    font-size: 40px;
+}
+
 .imgequipe {
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
 }
 
 .diretor{
@@ -128,15 +147,53 @@ main img {
     text-align: center;
     position: relative;
     margin-bottom: 50px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
 }
 
-.diretor>h4 {
+.diretor>h5 {
     background-color: rgb(253, 236, 232, 1);
     border-radius: 1rem;
     text-align: center;
     max-width: 15%;
+    color: rgb(194, 114, 116, 1);
+    font-size: 115%;
+    align-self: center;
+    padding: 1%;
+    position: relative;
+}
+
+.equipe-posição {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.equipe {
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 22px;
+
+}
+
+.equipe>h4 {
+    background-color: rgb(253, 236, 232, 1);
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 50%;
     color: rgb(194, 114, 116, 1);
     font-size: 115%;
     align-self: center;

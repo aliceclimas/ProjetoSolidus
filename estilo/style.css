@@ -388,4 +388,7 @@ footer > img {
     font-size: 14px;
     padding: 0.5rem;
   }
+  .texto-recolhimento {
+    width: 100%;
+  }
 }

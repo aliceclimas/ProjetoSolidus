@@ -116,20 +116,23 @@ main img {
     padding-right: 100px;
 }
 
-.hero-section-equipe {
-    display: flex;
+.título-equipe {    /* Não consegui arrumar o background do título */
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    width: 100%;
-    height: 100%;
+    
+    width: 1440px;
+    height: 198px;
+    left: 0px;
+    top: 3929px;
     
     
     
     
     background-image: url(../imagens/background-equipe.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     color: #C27274;
     text-align: center;
     font-size: 40px;
@@ -193,7 +196,7 @@ main img {
     background-color: rgb(253, 236, 232, 1);
     border-radius: 1rem;
     text-align: center;
-    max-width: 50%;
+    max-width: 70%;
     color: rgb(194, 114, 116, 1);
     font-size: 115%;
     align-self: center;

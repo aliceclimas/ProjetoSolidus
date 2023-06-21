@@ -1,0 +1,38 @@
+#carrossel-imagens {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+  height: 17rem;
+  max-width: 53rem;
+}
+#carrossel-imagens .imagens-wrap {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+#carrossel-imagens .imagens-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+}
+#carrossel-imagens .imagens-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  text-align: center;
+  margin: 0 2rem;
+}
+#carrossel-imagens .imagens-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  width: 15rem;
+  height: 15rem;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+  border-radius: 1rem;
+}

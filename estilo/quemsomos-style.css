@@ -46,6 +46,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.titulo-pagina {
+    background-color: var(--cor4);
+}
+
 .container-info {
     margin: 0 auto;
 }
@@ -128,7 +132,7 @@ h1 {
     }
 
     .text-section img {
-        width: 30%;
+        width: 20%;
         margin: 0 20px;
     }
 
@@ -149,7 +153,7 @@ h1 {
     }
 
     .text-section img {
-        width: 40%;
+        width: 25%;
         margin: 0 20px;
     }
 
@@ -187,7 +191,7 @@ h1 {
 }
 
 .equipe h3 {
-    background-color: #e4c0c1;
+    background-color: var(--cor4);
 
     border-radius: 20px;
     position: relative;

@@ -1,3 +1,5 @@
+/* MODIFICAÇÕES NA HERO-SECTION */
+
 .hero-section::before {
   background-color: rgba(255, 255, 255, 0);
 }
@@ -37,6 +39,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .texto-paragrafo1 {
   padding: 1rem;
   text-align: justify;
@@ -127,43 +130,7 @@ h1 {
   padding: 3rem;
 }
 
-.retangulo-recolhimento {
-  text-align: center;
-  margin: 3rem 0 3rem 0;
-}
-.pontos-recolhimento {
-  margin: 0.2rem;
-  padding: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-.texto-recolhimento {
-  display:flex;
-  flex-direction: column;
-  max-width: 20%;
-  border-radius: 1rem;
-  text-align: center;
-  position: relative;
-  margin-bottom: 50px;
-}
-.texto-recolhimento>p {
-  background-color: rgb(237, 228, 219, 1);
-  border-radius: 1rem;
-  align-self: center;
-  max-width: 100%;
-  color: rgb(0, 0, 0, 1);
-  font-size: 24px;
-  padding: 3%;
-  position: absolute;
-  top: 90%;
-}
-.texto-recolhimento>img{
-  border: 11px solid rgb(237, 228, 219, 1);
-  border-radius: 100%; 
-}
+
 @media screen and(max-width:480px) {
   .imagem-texto1 {
     width: 100%;
@@ -261,4 +228,53 @@ h1 {
   .texto-recolhimento {
     width: 100%;
   }
+}
+
+/* ESTILO DOS PONTOS DE RECOLHIMENTO */
+.titulo-ponto-recolhimento h1{
+  text-align: center;
+  font-size: 2em;
+
+  margin: 20px 0;
+}
+
+.pontos-recolhimento-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  max-width: 1000px;
+
+  margin: 20px auto;
+}
+
+.ponto-recolhimento {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.ponto-recolhimento > h3 {
+  background-color: var(--cor2);
+  
+  font-weight: 200;
+  text-align: center;
+
+  padding: 3%;
+  
+  position: absolute;
+  top: 90%;
+
+  border-radius: 40px;
+  width: 200px;
+}
+
+.ponto-recolhimento > img {
+  border: 10px solid var(--cor2);
+  border-radius: 100%; 
 }

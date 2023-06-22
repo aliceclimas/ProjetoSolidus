@@ -320,34 +320,41 @@ footer > img {
   }
   .imagem-texto2 {
     width: 80%;
+    height: 100%;
+    
   }
   .retangulo3 {
-    width: 10%;
+    width: 70%;
+    height: 50%;
     margin: 0;
   }
   .chavepix {
     width: 70%;
+    
   }
+  
 }
 @media screen and (max-width: 1023px) {
   .imagem-texto1 {
     margin-top: 4rem;
     display: flex;
-    width: 80%;
+    width: 60%;
     height: 90%;
     font-size: 80%;
     margin-right: 0.5rem;
     background-image: url(../images/recdoacoes.png);
+   
   }
   .texto1 {
     justify-content: center;
     align-items: center;
+    
   }
   .imagem-texto2 {
     font-size: 80%;
     margin-top: 4rem;
-    width: 80vw;
-    max-height: 95%;
+    width:40vh;
+    height: 50%;
     margin-right: 1rem;
   }
   .texto2 {
@@ -363,19 +370,19 @@ footer > img {
     height: 60%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 780px) {
   .imagem-texto1 {
     font-size: 14px;
     margin-top: 4rem;
     margin-left: 0rem;
     width: 30%;
-    height: 80%;
+    height: 85%;
     padding: 0;
   }
   .imagem-texto2 {
     margin-top: 4rem;
-    width: 45%;
-    height: 80%;
+    width: 40%;
+    height: 85%;
   }
   .texto2 {
     font-size: 14px;

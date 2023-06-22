@@ -1,4 +1,4 @@
-$(function () {
+$( ()=> {
   var $carrossel = $("#imagens-slider");
   var imagens = $carrossel.children().length;
   var imagem_width = imagens * 2000;
@@ -25,7 +25,7 @@ $(function () {
           "margin-left": "-300px",
         },
         2000,
-        function () {
+         ()=> {
           $first.remove().css({
             "margin-left": "0px",
           });

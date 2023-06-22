@@ -31,6 +31,11 @@
 
 /* CONFIGURAÇÃO DO CONTEÚDO DA PÁGINA */
 
+hr {
+    background-color: var(--cor3);
+    width: 80%;
+}
+
 h1 {
     color: var(--cor5);
     font-weight: 600;
@@ -103,6 +108,7 @@ h1 {
 
     .text-section img {
         width: 40%;
+        margin: 0 20px;
     }
 
     .foto-direita {

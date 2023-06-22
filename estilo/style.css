@@ -1,119 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap");
-@import url("./navbar.css");
-@import url("./global-styles.css");
-
-:root {
-  --cor1: #FBFBFB;
-  --cor2: #EDE4DB;
-  --cor3: #F0CECE;
-  --cor4: #e4c0c1;
-  --cor5: #C27274;
-  --cor6: #FB5C5C;
-  --cor7: #A63336;
-}
-
 .hero-section::before {
   background-color: rgba(255, 255, 255, 0);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-}
-
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-  background-image: url(../images/doacoes.png);
-  background-size: cover;
-  background-position: center center;
-  z-index: 5;
-}
-
-.cabecalho {
-  display: flex;
-  justify-content: center;
-  background-color: #c27273bb;
-  height: 15vh;
-}
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav > ul {
-  display: flex;
-  justify-content: center;
-  width: 30em;
-}
-
-ul > li {
-  display: flex;
-  flex: 1;
-
-  align-items: center;
-  margin: 10px 0.2vw;
-}
-.menu-botoes {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu-botoes > ul {
-  display: flex;
-  justify-content: center;
-  width: 30em;
-}
-
-.menu-botoes > ul > li {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  margin: 10px 0.2vw;
-}
-
-
-.botao {
-  background-color: var(--cor5);
-  color: var(--cor3);
-  text-decoration: none; 
-
-  font-weight: bold;
-  font-size: 10pt;
-  text-align: center;
-
-  flex: 1;
-
-  padding: 0.7em 0;
-  border: 1px solid var(--cor5);
-  border-radius: 2em;
-  box-shadow: 3px 3px 5px #25252581;
-
-  transition: all 600ms ease;
-}
-
-.botao:hover {
-  color: var(--cor5);
-  background-color: var(--cor3);
-  border: 1px solid var(--cor5);
-}
-
-.botao-ativo {
-  background-color: var(--cor5);
-  color: var(--cor3);
-  border: 1px solid var(--cor3);
-  text-decoration: underline;
+  background-image: url(../imagens/d);
 }
 
 .doacoes-principal {
@@ -165,34 +55,6 @@ h1 {
   justify-content: center;
   line-height: 1.5;
   font-size: 95%;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 2rem 0 0 0;
-  position: relative;
-  padding: 2rem;
-  background-color: #c27274;
-}
-
-footer > img {
-  width: 100px;
-} 
-
-.icones-redes-sociais {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 50px;
-}
-
-.icones-redes-sociais img {
-  width: 100%;
 }
 
 .doacoes-principal {
@@ -303,9 +165,6 @@ footer > img {
   border-radius: 100%; 
 }
 @media screen and(max-width:480px) {
-  .hero-section {
-    width: 100%;
-  }
   .imagem-texto1 {
     width: 100%;
     height: 80%;
@@ -343,13 +202,13 @@ footer > img {
     font-size: 80%;
     margin-right: 0.5rem;
     background-image: url(../images/recdoacoes.png);
-   
   }
+
   .texto1 {
     justify-content: center;
     align-items: center;
-    
   }
+
   .imagem-texto2 {
     font-size: 80%;
     margin-top: 4rem;
@@ -357,15 +216,19 @@ footer > img {
     height: 50%;
     margin-right: 1rem;
   }
+
   .texto2 {
     padding: 0.5rem;
   }
+
   .textoparagrafo3 {
     padding: 0.5rem;
   }
+
   .textoparagrafo4 {
     padding: 0.5rem;
   }
+  
   .retangulo3 {
     height: 60%;
   }

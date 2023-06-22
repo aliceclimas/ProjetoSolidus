@@ -193,6 +193,7 @@ h1 {
 .equipe h3 {
     background-color: var(--cor4);
 
+    font-weight: 500;
     border-radius: 20px;
     position: relative;
     

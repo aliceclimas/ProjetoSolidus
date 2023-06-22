@@ -126,12 +126,12 @@ hr {
     text-decoration: none; 
 
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 9.5pt;
     text-align: center;
 
     flex: 1;
 
-    padding: 0.7em 0;
+    padding: 0.6em 0;
     border: 1px solid var(--cor5);
     border-radius: 2em;
     box-shadow: 3px 3px 5px #25252581;

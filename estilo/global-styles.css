@@ -161,8 +161,8 @@ footer {
     text-align: center;
     font-size: 14px;
     position: relative;
-    padding: 1rem;
     background-color: #C27274;
+    border: 1px solid blue;
 }
 
 footer > img {
@@ -183,4 +183,8 @@ footer > img {
 
 .icones-redes-sociais img {
     width: 100%;
+}
+
+footer > p {
+    margin-top: 8px;
 }

@@ -38,6 +38,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  max-width: 460px;
 }
 
 .texto-paragrafo1 {

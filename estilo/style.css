@@ -3,7 +3,7 @@
 }
 
 .hero-section {
-  background-image: url(../imagens/d);
+  background-image: url(../imagens/doacoes.png);
 }
 
 .doacoes-principal {
@@ -30,7 +30,7 @@ h1 {
   display: flex;
   box-shadow: 10px 8px 27px 0px rgba(0, 0, 0, 0.4);
   border-radius: 2.5rem;
-  background-image: url(../images/recdoacoes.png);
+  background-image: url(../imagens/recdoacoes.png);
   background-repeat: no-repeat;
   align-content: center;
   flex-wrap: wrap;
@@ -96,7 +96,7 @@ h1 {
   align-items: center;
   text-align: justify;
   line-height: 1.5;
-  background-image: url(../images/recdoacoes2.png);
+  background-image: url(../imagens/recdoacoes2.png);
   background-repeat: no-repeat;
   justify-content: center;
   align-content: center;
@@ -201,7 +201,7 @@ h1 {
     height: 90%;
     font-size: 80%;
     margin-right: 0.5rem;
-    background-image: url(../images/recdoacoes.png);
+    background-image: url(../imagens/recdoacoes.png);
   }
 
   .texto1 {
@@ -228,7 +228,7 @@ h1 {
   .textoparagrafo4 {
     padding: 0.5rem;
   }
-  
+
   .retangulo3 {
     height: 60%;
   }

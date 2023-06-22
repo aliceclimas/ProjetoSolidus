@@ -166,15 +166,6 @@ h1 {
     text-align: justify;
 }
 
-.equipe {
-    display:flex;
-    flex-direction: column;
-
-    max-width: 100%;
-
-    margin: 20px 0;
-}
-
 .titulo-equipe {    
     display: flex;
     align-items: center;
@@ -183,6 +174,15 @@ h1 {
     background-image: url(../imagens/background-equipe.png);
     background-size: cover;
     background-position: center;
+}
+
+.equipe {
+    display:flex;
+    flex-direction: column;
+
+    max-width: 100%;
+
+    margin: 20px 0;
 }
 
 .equipe img {
@@ -212,10 +212,14 @@ h1 {
 
 .equipe-cordenadores {
     display: flex;
-    align-content: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
 
+    flex-wrap: wrap;
+
     text-align: center;
+}
+
+.equipe-cordenadores > div {
+    align-items: center;
 }

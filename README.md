@@ -21,11 +21,25 @@
 O seguinte projeto apresenta a criação de um site para a disciplina de PMI(Programação em Microinformática) lecionada pelo docente Pr. Dr. Lucimar Sasso Vieira na instituição de ensino Fatec Rio Preto.
 O site foi criado a partir de uma situação real, e o cliente do grupo foi o projeto Solidus, um projeto ainda informal e sem registros jurídicos,que surgiu em 2018 em Belo Horizonte-MG.
 A missão do projeto é diminuir a desiguladade social através de ações que realmente imapctam na vida das pessoas.
+
 # Funcionalidades e Demonstração da Aplicação
  O site possui três arquivos HTML
 * `Home`: Apresenta informações gerais sobre o projeto, contém um carrossel com JS com imagens do projeto social , além de uma seção resumida de "sobre nós".
+
+ ![bandicam 2023-06-29 21-57-27-163](https://github.com/aliceclima/ProjetoSolidus/assets/119901153/04671d33-810f-455f-a717-da5f8a1c3982)
+
+
 * `Doações` : Contém informações de como os possíveis doadores podem doar para o projeto de Belo Horizonte.
+  
+![bandicam 2023-06-29 21-58-01-420](https://github.com/aliceclima/ProjetoSolidus/assets/119901153/75ccb774-d525-48dc-b6ba-e9856367e04e)
+
+  
 * `Quem somos`: Apresenta com detalhes mais sobre a ação voluntária do projeto.
+
+![bandicam 2023-06-29 22-02-04-909](https://github.com/aliceclima/ProjetoSolidus/assets/119901153/a1146f19-b502-40a7-b90f-f2836a3cdf99)
+
+  
+  
 # 📁Acesso ao Projeto
 Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub que permite a visualização do site( que está responsivo por sinal). <br>
 <a href="https://aliceclima.github.io/ProjetoSolidus/paginas/index.html">Projeto Solidus</a>

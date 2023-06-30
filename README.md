@@ -57,6 +57,5 @@ Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub
 | [<img src="https://avatars.githubusercontent.com/u/119901153?v=4" width=115><br><sub>Alice Lima</sub>](https://github.com/aliceclima) |  [<img src="https://avatars.githubusercontent.com/u/129322594?v=4" width=115><br><sub>Ana Garcia</sub>](https://github.com/hsveanicelife) |  [<img src="https://avatars.githubusercontent.com/u/133396776?v=4" width=115><br><sub>Davi Muniz</sub>](https://github.com/DaviLMuniz) |  [<img src="https://avatars.githubusercontent.com/u/49818020?v=4" width=115><br><sub>Deivid Santana</sub>](https://github.com/DeividSouSan) |
 | :---: | :---: | :---: | :---: |
 
-https://avatars.githubusercontent.com/u/110180271?v=4
 # Conclusão
 Para concluir, gostaríamos de agradecer ao docente da disciplina de PMI pelas aulas e dúvidas tiradas, e principalmente a Larissa Ferraz(colaboradora do Projeo Solidus) pela responsabilidade e seriedade no fornecimento de informações para o desenvolvimento do seguinte trabalho.

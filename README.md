@@ -12,7 +12,6 @@
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
 * [Conclusão](#conclusão)
 
 # Status
@@ -23,7 +22,10 @@ O seguinte projeto apresenta a criação de um site para a disciplina de PMI(Pro
 O site foi criado a partir de uma situação real, e o cliente do grupo foi o projeto Solidus, um projeto ainda informal e sem registros jurídicos,que surgiu em 2018 em Belo Horizonte-MG.
 A missão do projeto é diminuir a desiguladade social através de ações que realmente imapctam na vida das pessoas.
 # Funcionalidades e Demonstração da Aplicação
-
+ O site possui três arquivos HTML
+* `Home`: Apresenta informações gerais sobre o projeto, contém um carrossel com JS com imagens do projeto social , além de uma seção resumida de "sobre nós".
+* `Doações` : Contém informações de como os possíveis doadores podem doar para o projeto de Belo Horizonte.
+* `Quem somos`: Apresenta com detalhes mais sobre a ação voluntária do projeto.
 # 📁Acesso ao Projeto
 Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub que permite a visualização do site( que está responsivo por sinal). <br>
 <a href="https://aliceclima.github.io/ProjetoSolidus/paginas/index.html">Projeto Solidus</a>
@@ -35,11 +37,12 @@ Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub
 
 
 # Pessoas contribuidoras
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Arthur Zanerato</sub>](https://github.com/camilafernanda) | 
+| [<img src="https://avatars.githubusercontent.com/u/110180271?v=4" width=115><br><sub>Arthur Zanerato</sub>](https://github.com/Arthur-Zanerato) | 
 | :---: |
 # Pessoas Desenvolvedoras 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Alice Lima</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Ana Garcia</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Davi Muniz</sub>](https://github.com/alexfelipe) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Deivid Santana</sub>](https://github.com/alexfelipe) |
+| [<img src="https://avatars.githubusercontent.com/u/119901153?v=4" width=115><br><sub>Alice Lima</sub>](https://github.com/aliceclima) |  [<img src="https://avatars.githubusercontent.com/u/129322594?v=4" width=115><br><sub>Ana Garcia</sub>](https://github.com/hsveanicelife) |  [<img src="https://avatars.githubusercontent.com/u/133396776?v=4" width=115><br><sub>Davi Muniz</sub>](https://github.com/DaviLMuniz) |  [<img src="https://avatars.githubusercontent.com/u/49818020?v=4" width=115><br><sub>Deivid Santana</sub>](https://github.com/DeividSouSan) |
 | :---: | :---: | :---: | :---: |
-# Licença
 
+https://avatars.githubusercontent.com/u/110180271?v=4
 # Conclusão
+Para concluir, gostaríamos de agradecer ao docente da disciplina de PMI pelas aulas e dúvidas tiradas, e principalmente a Larissa Ferraz(colaboradora do Projeo Solidus) pela responsabilidade e seriedade no fornecimento de informações para o desenvolvimento do seguinte trabalho.

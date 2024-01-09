@@ -42,7 +42,7 @@ A missão do projeto é diminuir a desiguladade social através de ações que r
   
 # 📁Acesso ao Projeto
 Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub que permite a visualização do site( que está responsivo por sinal). <br>
-<a href="https://aliceclima.github.io/ProjetoSolidus/paginas/index.html">Projeto Solidus</a>
+<a href="https://aliceclimas.github.io/ProjetoSolidus/paginas/index.html">Projeto Solidus</a>
 
 # Tecnologias utilizadas
 * `JavaScript`

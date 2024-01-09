@@ -58,4 +58,4 @@ Para acessar o projeto,foi utilizado o serviço de hospedagem gratuito do GitHub
 | :---: | :---: | :---: | :---: |
 
 # Conclusão
-Para concluir, gostaríamos de agradecer ao docente da disciplina de PMI pelas aulas e dúvidas tiradas, e principalmente a Larissa Ferraz(colaboradora do Projeo Solidus) pela responsabilidade e seriedade no fornecimento de informações para o desenvolvimento do seguinte trabalho.
+Para concluir, gostaríamos de agradecer ao docente da disciplina de PMI pelas aulas e dúvidas tiradas, e principalmente a Larissa Ferraz(colaboradora do Projeto Solidus) pela responsabilidade e seriedade no fornecimento de informações para o desenvolvimento do seguinte trabalho.
